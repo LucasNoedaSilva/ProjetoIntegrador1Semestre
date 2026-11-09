@@ -1,10 +1,10 @@
 👋 Olá! Eu sou o Lucas
 
-💻 Analista de Dados | Estudante de Sistemas para Internet | Desenvolvedor em formação
+💻 Analista de Dados | Formado em Sistemas para Internet | Desenvolvedor em formação
 
 Sou apaixonado por tecnologia, programação e desenvolvimento de soluções que resolvam problemas reais. Busco constantemente aprimorar minhas habilidades técnicas, explorar novas ferramentas e transformar conhecimentos acadêmicos em projetos práticos.
 
-🚀 Projeto em destaque — PlayCloud2
+🚀 Projeto em destaque — PlayCloud
 
 O PlayCloud2 faz parte do meu Projeto Integrador do 1º semestre, desenvolvido durante minha formação acadêmica.
 
