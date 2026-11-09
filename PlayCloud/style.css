@@ -1,0 +1,185 @@
+* {
+    background-color: #252525;
+}
+
+.cabecalho {
+    padding: 10px 0;
+}
+
+.logo {
+    height: 100px;
+    width: 120px;
+}
+
+.alinhaItem {
+    margin: 0 auto;
+}
+
+.alinhaItemLi {
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.titulo {
+    text-align: center;
+    border: groove 4px;
+}
+
+.titulo h2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.carrossel {
+    height: 600px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carrosselitem {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+#JogoPromocao {
+    margin-top: 50px;
+    color: white;
+}
+
+.bordaSubTitulo {
+    border: groove 5px;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 0px;
+    padding: 10px;
+
+}
+
+.linhacardi {
+    padding: 30px auto;
+}
+
+.colunacardi {
+    margin: 0 auto;
+    height: 380px;
+}
+
+.col {
+    padding: 10px;
+    margin: 15px;
+}
+
+.row {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* 
+parte de contatos */
+
+
+form {
+    margin: 40px 30px;
+    color: white;
+   padding-left: 500px;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+    
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.corDeLetra {
+    color: white;
+}
+
+.posicaoHorario {
+    margin: 40px auto;
+    color: white;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #808080;
+}
+
+footer img {
+    height: 200px;
+    width: 220px;
+    background-color: #808080
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    background-color: #808080;
+}

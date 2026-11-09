@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Cloud</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg  p-4 cabecalho">
+                <div class="container-fluid ">
+                    <img class="logo " src="imagens/pi_play_cloud.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav alinhaItem">
+                            <li class="nav-item  ">
+                                <a class="nav-link alinhaItemLi" aria-current="page"
+                                    href="#identificaCarrossel">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link alinhaItemLi" href="#JogoPromocao">Jogos</a>
+                            </li>
+                            <li class="nav-item alinhaItemLi">
+                                <a class="nav-link  alinhaItemLi" href="#contato">Contato</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link active dropdown-toggle alinhaItemLi" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Suporte
+                                </a>
+                                <ul class="dropdown-menu  cabecalho">
+
+                                    <li><a class="dropdown-item alinhaItemLi" href="#">Features</a></li>
+                                    <li><a class="dropdown-item alinhaItemLi" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="identificaCarrossel">
+            <div class="titulo">
+                <h2>Recém chegados na Plataforma</h2>
+            </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade carrossel" data-bs-ride="carousel">
+                <div class="carousel-inner carrosselitem">
+
+                    <div class="carousel-item active carrosselitem">
+                        <img src="imagens/codWarzone.jpg" class="d-block w-100" alt="...">
+
+                    </div>
+
+                    <div class="carousel-item carrosselitem">
+                        <img src="imagens/good of war.webp" class="d-block w-100" alt="...">
+
+                    </div>
+
+                    <div class="carousel-item carrosselitem">
+                        <img src="imagens/171.webp" class="d-block w-100" alt="...">
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div id="JogoPromocao">
+
+            <div class="bordaSubTitulo">
+                <h3 class="subtitulo">Jogos em Promoções</h3>
+            </div>
+
+            <div class="container text-center">
+
+                <div class="row  linhacardi">
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/FIFA23.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">FIFA 23</h5>
+                                <p class="card-text">Viva a emoção do maior torneio do futebol com a atualização da FIFA
+                                    World Cup™ masculina para o EA SPORTS™ FIFA 23</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/good of war.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">God of War</h5>
+                                <p class="card-text">Junte-se a Kratos e Atreus em uma jornada mítica à procura de
+                                    respostas na iminência do Ragnarök.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/valorant.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Valorant</h5>
+                                <p class="card-text">Mais do que armas e munição, VALORANT inclui agentes com
+                                    habilidades adaptativas, rápidas e letais.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/minecraft.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Minecraft</h5>
+                                <p class="card-text">Com novos jogos, novas atualizações e novas maneiras de jogar,
+                                    junta-te a uma das maiores comunidades no mundo.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/elden ring.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Elden Ring</h5>
+                                <p class="card-text">Siga o caminho para as Lands Between, atravessando o mar nebuloso,
+                                    para chegar até o Elden Ring.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/lol.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">League of Legends</h5>
+                                <p class="card-text">É um jogo de estratégia em que duas equipes de cinco poderosos
+                                    Campeões se enfrentam para destruir a base uma da outra.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/Overwatch.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Overwatch</h5>
+                                <p class="card-text">Overwatch 2 é um jogo de ação em equipe grátis para jogar em
+                                    constante evolução que se passa em um futuro otimista</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/cs.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CS:GO</h5>
+                                <p class="card-text">Em Counter Strike: Global Offensive você poderá encarar uma das
+                                    mais cruas experiências de um FPS.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card colunacardi" style="width: 18rem;">
+                            <img src="imagens/darksouls.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dark Souls III</h5>
+                                <p class="card-text">Premiado como 'Melhor RPG' na Gamescom 2015 e com mais de 35
+                                    prêmios e indicações na E3 2015.</p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contato">
+            <div class="bordaSubTitulo">
+                <h3 class="subtitulo">Contato</h3>
+            </div>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao corDeLetra" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padrao corDeLetra" required
+                    placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao corDeLetra" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="40" rows="7" id="mensagem" class="input-padrao corDeLetra" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                        E-mail</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                            checked> WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select class="corDeLetra">
+                        <option class="corDeLetra">Manhã</option>
+                        <option class="corDeLetra">Tarde</option>
+                        <option class="corDeLetra">Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                    e-mail?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+
+
+            <table class="posicaoHorario">
+                <tr>
+                    <td class="corDeLetra">Dia</td>
+                    <td class="corDeLetra">Horário</td>
+                </tr>
+                <tr>
+                    <td class="corDeLetra">Segunda à Sexta</td>
+                    <td class="corDeLetra">8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td class="corDeLetra">Aos Sábados</td>
+                    <td class="corDeLetra">8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td class="corDeLetra">Domingo e feriados</td>
+                    <td class="corDeLetra">Não funcionamos</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <footer>
+
+            <img src="imagens/pi_play_cloud_sem_texto.png" alt="Logo da Play Cloud" class="logo2">
+            <p class="copyright">&copy; Copyright Play Cloud - 2022</p>
+
+        </footer>
+    </main>
+
+</body>
+
+</html>
