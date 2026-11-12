@@ -6,7 +6,7 @@ Sou apaixonado por tecnologia, programação e desenvolvimento de soluções que
 
 🚀 Projeto em destaque — PlayCloud
 
-O PlayCloud2 faz parte do meu Projeto Integrador do 1º semestre, desenvolvido durante minha formação acadêmica.
+O PlayCloud faz parte do meu Projeto Integrador do 1º semestre, desenvolvido durante minha formação acadêmica.
 
 O projeto representa uma oportunidade de colocar em prática os conhecimentos adquiridos ao longo do curso, explorando conceitos de desenvolvimento de software, organização de código, resolução de problemas e construção de soluções tecnológicas.
 
